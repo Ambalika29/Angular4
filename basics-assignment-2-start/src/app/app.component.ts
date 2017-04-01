@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  
+  username: string = '';
+
+  isClickable(){
+    return this.username.length;
+  }
+
+  onClickButton(){
+    this.username = '';
+  }
 }
+

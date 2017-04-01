@@ -1,0 +1,9 @@
+div {
+    border: 1px solid darkred;
+    padding: 20px;
+    background-color: mistyrose;
+}
+p{
+    color: red;
+    font-size: 1.2rem;
+}
