@@ -10,16 +10,17 @@
             <h1>{{selectedRecipe.name}}</h1>
         </div>
     </div>
+
     <div class="row">
         <div class="col-xs-12">
-            <div class="btn-group dropdown" appDropdown>
-                <button type="button" class="btn btn-primary dropdown-toggle"> Manage <span class="caret"></span></button>
+            <div class="dropdown" appDropdown>
+                <button type="button" class="btn btn-primary dropdown-toggle" role="button">Manage <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a style="cursor: pointer" (click)="OnAddToShoppingList()">To Shopping List</a></li>
+                    <li><a style="cursor: pointer">Edit Recipe</a></li>
+                    <li><a style="cursor: pointer">Delete Recipe</a></li>
+                </ul>
             </div>
-            <ul class="dropdown-menu">
-                <li><a href="#">To Shopping List</a></li>
-                <li><a href="#">Edit Recipe</a></li>
-                <li><a href="#">Delete Recipe</a></li>
-            </ul>
         </div>
     </div>
     <div class="row">
