@@ -1,18 +1,21 @@
 <div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      <button
-        class="btn btn-primary"
-        (click)="onlyOdd = !onlyOdd">Only show odd numbers</button>
-      <br><br>
-      <ul class="list-group">
-        <li
-          class="list-group-item">
-        </li>
-      </ul>
-      <ng-template [ngIf]="onlyOdd">
-        <p>Only odd</p>
-      </ng-template>
+    <div class="row">
+        <div class="col-xs-12">
+            <button class="btn btn-primary" (click)="onlyOdd = !onlyOdd">Only show odd numbers</button>
+            <br><br>
+            <ul class="list-group">
+                <li class="list-group-item">
+                </li>
+            </ul>
+            <p *appUnless="onlyOdd">only odd</p>
+        </div>
+        <p appBasicHighlight> This is basic highlight style </p>
+        <p appBetterHighlight [defaultColor]="'transparent'" [highlightColor]="'yellow'"> This is better styled </p>
+        <p appBasicHighlight> This is basic highlight style </p>
+        <p appBetterHighlight [defaultColor]="'transparent'" [highlightColor]="'yellow'"> This is better styled </p>
+        <p appBasicHighlight> This is basic highlight style </p>
+        <p appBetterHighlight [defaultColor]="'transparent'" [highlightColor]="'yellow'"> This is better styled </p>
+        <p appBasicHighlight> This is basic highlight style </p>
+        <p appBetterHighlight [defaultColor]="'transparent'" [highlightColor]="'yellow'"> This is better styled </p>
     </div>
-  </div>
 </div>
