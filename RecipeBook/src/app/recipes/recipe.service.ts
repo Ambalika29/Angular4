@@ -1,11 +1,10 @@
-import { OnInit, EventEmitter, Injectable } from '@angular/core';
+import {Injectable } from '@angular/core';
 import { Recipe } from './recipe.model';
 import { Ingredient } from '../shared/ingredient.modal';
 import { ShoppingListService } from '../shopping-list/shoppling-list.service';
 
 @Injectable()
-export class RecipeService{
-    public recipeSelectedEvent = new EventEmitter<Recipe>();
+export class RecipeService{ 
     private recipes: Recipe[] = [
     new Recipe(
         'Chicken Tikka Masala', 
@@ -30,6 +29,10 @@ export class RecipeService{
 
   getRecipes(){
       return this.recipes.slice();
+  }
+
+  getRecipeById(id:number){
+    return this.recipes[id];
   }
 
   addIngredientToShoppingList(ingredients: Ingredient[]){
