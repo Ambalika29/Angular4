@@ -1,0 +1,6 @@
+.aboutMe {
+    background-color: #333b50;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
