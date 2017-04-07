@@ -1,0 +1,29 @@
+.contact {
+    background: #333b50;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+
+img {
+    margin-right: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input.ng-invalid.ng-touched {
+    border: 1px solid darkred;
+}
+
+textarea.ng-invalid.ng-touched {
+    border: 1px solid darkred;
+}
