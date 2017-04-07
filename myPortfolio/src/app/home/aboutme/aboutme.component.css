@@ -1,6 +1,27 @@
-.aboutMe {
-    background-color: #333b50;
+.aboutme {
+    background: #333b50;
+    padding: 20px;
     color: white;
-    display: flex;
-    flex-direction: row;
+    margin: 0 auto;
+    margin-top: -8em;
+    width: 60%
+}
+
+.p-class {
+    margin: 0 9em 2em 9em;
+}
+
+.img-class {
+    display: block;
+    margin: 7em auto 5em auto
+}
+
+.btn-class {
+    display: block;
+    margin: 0 auto 3em auto;
+    border: 1px solid #00d646;
+    background: #333b50;
+    color: white;
+    border-radius: 0;
+    padding: 1.2em 2em;
 }

@@ -1,6 +1,7 @@
 .contact {
     background: #333b50;
     color: white;
+    margin-top: -10em;
 }
 
 ul {
@@ -26,4 +27,9 @@ input.ng-invalid.ng-touched {
 
 textarea.ng-invalid.ng-touched {
     border: 1px solid darkred;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 20px;
 }

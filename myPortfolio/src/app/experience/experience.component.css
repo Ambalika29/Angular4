@@ -51,9 +51,10 @@ time {
 }
 
 .experience {
-    background: #333b50;
+    /*background: #333b50;*/
     padding: 20px;
     color: white;
+    margin-top: 5em
 }
 
 h1 {

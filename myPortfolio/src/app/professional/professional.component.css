@@ -1,0 +1,38 @@
+.professional {
+    /*background: #333b50;*/
+    padding: 20px;
+    color: white;
+    margin: 15em, 9em;
+}
+
+.progress {
+    background-color: transparent !important;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.progress-bar {
+    position: relative;
+    background-color: #00d646;
+    margin: auto 0;
+    height: 7px;
+    min-height: 5px;
+    top: 35%;
+    bottom: 55%;
+}
+
+.header-style {
+    text-align: right;
+}
+
+.progress-label {
+    position: relative;
+    /*right: -55%;*/
+    padding: 0 15px;
+    vertical-align: top;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
